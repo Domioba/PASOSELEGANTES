@@ -1,54 +1,42 @@
-﻿using Guna.UI2.WinForms;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using WindowsFormsApp2.Formularios;
 
 namespace WindowsFormsApp2
 {
     public partial class InicioCesion : Form
     {
         // Usuario y contraseña predeterminados
-        private string usuarioCorrecto = "admin";
-        private string contrasenaCorrecta = "123";
-        private object guna2TextBox31;
+        private string usuarioCorrecto = "1";
+        private string contrasenaCorrecta = "1";
 
         public InicioCesion()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterScreen;
+            this.StartPosition = FormStartPosition.CenterScreen; // Centrar la ventana
         }
 
         private void InicioCesion_Load(object sender, EventArgs e)
         {
-
+            // Cualquier código adicional al cargar el formulario
         }
 
-        // Evento de texto cambiado en el cuadro de texto de usuario
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        // Evento del botón Login (Acceso)
+        private void btnAcceso_Click(object sender, EventArgs e)
         {
-            // Esto previene que el texto se seleccione automáticamente al cambiar el texto
-            guna2TextBox1.SelectionLength = 0;
-        }
+            // Obtener valores ingresados
+            string usuario = ingresoUsuario.Text.Trim();       // Campo para el usuario
+            string contrasena = ingresoContrasena.Text.Trim(); // Campo para la contraseña
 
-        // Evento de texto cambiado en el cuadro de texto de contraseña
-        private void guna2TextBox5_TextChanged(object sender, EventArgs e)
-        {
-            // Aquí puedes añadir lógica si quieres hacer algo cuando el texto cambia
-        }
-
-        // Evento del botón Login
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            string usuario = guna2TextBox3.Text.Trim();  // Elimina espacios alrededor del texto
-            string contrasena = guna2TextBox6.Text.Trim();  // Elimina espacios alrededor del texto
-
-            // Verificar los valores ingresados
-            MessageBox.Show($"Usuario ingresado: '{usuario}' - Contraseña ingresada: '{contrasena}'");
-
-            // Validación del usuario y contraseña
+            // Validar credenciales
             if (ValidarUsuario(usuario, contrasena))
             {
                 MessageBox.Show("¡Login exitoso!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Hide();  // Cierra el formulario de login
+
+                // Abrir el formulario principal
+                Principal principal = new Principal(); // Asegúrate de que el formulario `Principal` existe
+                principal.Show();
+                this.Hide(); // Ocultar el formulario actual
             }
             else
             {
@@ -56,10 +44,9 @@ namespace WindowsFormsApp2
             }
         }
 
-        // Método de validación
+        // Método de validación de credenciales
         private bool ValidarUsuario(string usuario, string contrasena)
         {
-            // Compara los valores ingresados ignorando mayúsculas/minúsculas
             return string.Equals(usuario, usuarioCorrecto, StringComparison.OrdinalIgnoreCase) &&
                    string.Equals(contrasena, contrasenaCorrecta, StringComparison.OrdinalIgnoreCase);
         }
@@ -67,18 +54,13 @@ namespace WindowsFormsApp2
         // Evento del botón Cerrar
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            Application.Exit(); // Cierra la aplicación
+            Application.Exit(); // Salir de la aplicación
         }
 
         // Evento del botón Minimizar
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized; // Minimiza la ventana
-        }
-
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
-        {
-
+            this.WindowState = FormWindowState.Minimized; // Minimizar la ventana
         }
     }
 }

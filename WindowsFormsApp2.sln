@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp2", "WindowsFormsApp2.csproj", "{EA05ED98-21EA-4B81-807E-818F4BC693FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PASOS ELEGANTES", "PASOS ELEGANTES.csproj", "{EA05ED98-21EA-4B81-807E-818F4BC693FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

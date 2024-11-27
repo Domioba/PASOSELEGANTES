@@ -7,11 +7,26 @@
     <ProjectGuid>{EA05ED98-21EA-4B81-807E-818F4BC693FF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp2</RootNamespace>
-    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <AssemblyName>PASOS ELEGANTES</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -61,11 +76,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="principal.cs">
+    <Compile Include="Formularios\Mostrarmarcas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="principal.Designer.cs">
-      <DependentUpon>principal.cs</DependentUpon>
+    <Compile Include="Formularios\Mostrarmarcas.Designer.cs">
+      <DependentUpon>Mostrarmarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostarUnderArmour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostarUnderArmour.Designer.cs">
+      <DependentUpon>MostarUnderArmour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarAdidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarAdidas.Designer.cs">
+      <DependentUpon>MostrarAdidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarCOban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarCOban.Designer.cs">
+      <DependentUpon>MostrarCOban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarCOnverse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarCOnverse.Designer.cs">
+      <DependentUpon>MostrarCOnverse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarNewBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarNewBalance.Designer.cs">
+      <DependentUpon>MostrarNewBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarNica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarNica.Designer.cs">
+      <DependentUpon>MostrarNica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarNIke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarNIke.Designer.cs">
+      <DependentUpon>MostrarNIke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Productos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formularios\Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Form1.cs">
       <SubType>Form</SubType>
@@ -79,32 +148,56 @@
     <Compile Include="Productos.Designer.cs">
       <DependentUpon>Productos.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductosFOrm\MOstrarPuma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MOstrarPuma.Designer.cs">
+      <DependentUpon>MOstrarPuma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarVAns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\MostrarVAns.Designer.cs">
+      <DependentUpon>MostrarVAns.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="principal.resx">
-      <DependentUpon>principal.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Mostrarmarcas.resx">
+      <DependentUpon>Mostrarmarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\MostrarAdidas.resx">
+      <DependentUpon>MostrarAdidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\MostrarNIke.resx">
+      <DependentUpon>MostrarNIke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -115,25 +208,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\zapatos.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\caja-negra.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\listas-de-control.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\clasificacion.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\punto-de-venta %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bolsa-de-la-compra %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\publicidad.png" />
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
