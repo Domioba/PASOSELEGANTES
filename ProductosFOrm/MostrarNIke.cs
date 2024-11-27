@@ -9,6 +9,7 @@ namespace WindowsFormsApp2.ProductosForm
         public MostrarNike()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
       

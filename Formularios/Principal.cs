@@ -15,6 +15,7 @@ namespace WindowsFormsApp2.Formularios
         public Principal()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void Principal_Load(object sender, EventArgs e)

@@ -82,6 +82,13 @@
     <Compile Include="Formularios\Mostrarmarcas.Designer.cs">
       <DependentUpon>Mostrarmarcas.cs</DependentUpon>
     </Compile>
+    <Compile Include="NikesProducts\Nike1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NikesProducts\Nike1.Designer.cs">
+      <DependentUpon>Nike1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.cs" />
     <Compile Include="ProductosFOrm\MostarUnderArmour.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Mostrarmarcas.resx">
       <DependentUpon>Mostrarmarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NikesProducts\Nike1.resx">
+      <DependentUpon>Nike1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductosFOrm\MostrarAdidas.resx">
       <DependentUpon>MostrarAdidas.cs</DependentUpon>

@@ -17,6 +17,7 @@ namespace WindowsFormsApp2.Formularios
         public Mostrarmarcas()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
