@@ -82,11 +82,35 @@
     <Compile Include="Formularios\Mostrarmarcas.Designer.cs">
       <DependentUpon>Mostrarmarcas.cs</DependentUpon>
     </Compile>
-    <Compile Include="NikesProducts\Nike1.cs">
+    <Compile Include="ProductosFOrm\NikesProducts\Nike Pegasus Trail 3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NikesProducts\Nike1.Designer.cs">
-      <DependentUpon>Nike1.cs</DependentUpon>
+    <Compile Include="ProductosFOrm\NikesProducts\Nike Pegasus Trail 3.Designer.cs">
+      <DependentUpon>Nike Pegasus Trail 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\NikesProducts\Nike Revolution 5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\NikesProducts\Nike Revolution 5.Designer.cs">
+      <DependentUpon>Nike Revolution 5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\NikesProducts\Nike Zoom Fly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\NikesProducts\Nike Zoom Fly.Designer.cs">
+      <DependentUpon>Nike Zoom Fly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\NikesProducts\NikeAirforce1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\NikesProducts\NikeAirforce1.Designer.cs">
+      <DependentUpon>NikeAirforce1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\NikesProducts\NikeAirmax90.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\NikesProducts\NikeAirmax90.Designer.cs">
+      <DependentUpon>NikeAirmax90.cs</DependentUpon>
     </Compile>
     <Compile Include="Producto.cs" />
     <Compile Include="ProductosFOrm\MostarUnderArmour.cs">
@@ -167,6 +191,72 @@
     <Compile Include="ProductosFOrm\MostrarVAns.Designer.cs">
       <DependentUpon>MostrarVAns.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas Gazelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas Gazelle.Designer.cs">
+      <DependentUpon>Adidas Gazelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas NMD R1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas NMD R1.Designer.cs">
+      <DependentUpon>Adidas NMD R1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas Stan Smith.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas Stan Smith.Designer.cs">
+      <DependentUpon>Adidas Stan Smith.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas Superstar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas Superstar.Designer.cs">
+      <DependentUpon>Adidas Superstar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas Ultraboost 21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Adidas\Adidas Ultraboost 21.Designer.cs">
+      <DependentUpon>Adidas Ultraboost 21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma Cell Endura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma Cell Endura.Designer.cs">
+      <DependentUpon>Puma Cell Endura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma Future Rider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma Future Rider.Designer.cs">
+      <DependentUpon>Puma Future Rider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma Ralph Sampso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma Ralph Sampso.Designer.cs">
+      <DependentUpon>Puma Ralph Sampso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma RS-X.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma RS-X.Designer.cs">
+      <DependentUpon>Puma RS-X.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma Suede Classic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\Productos Puma\Puma Suede Classic.Designer.cs">
+      <DependentUpon>Puma Suede Classic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosFOrm\ProductosUnderamour\Under Armour HOVR Phantom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductosFOrm\ProductosUnderamour\Under Armour HOVR Phantom.Designer.cs">
+      <DependentUpon>Under Armour HOVR Phantom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Form1.resx">
@@ -175,8 +265,20 @@
     <EmbeddedResource Include="Formularios\Mostrarmarcas.resx">
       <DependentUpon>Mostrarmarcas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NikesProducts\Nike1.resx">
-      <DependentUpon>Nike1.cs</DependentUpon>
+    <EmbeddedResource Include="ProductosFOrm\NikesProducts\Nike Pegasus Trail 3.resx">
+      <DependentUpon>Nike Pegasus Trail 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\NikesProducts\Nike Revolution 5.resx">
+      <DependentUpon>Nike Revolution 5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\NikesProducts\Nike Zoom Fly.resx">
+      <DependentUpon>Nike Zoom Fly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\NikesProducts\NikeAirforce1.resx">
+      <DependentUpon>NikeAirforce1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\NikesProducts\NikeAirmax90.resx">
+      <DependentUpon>NikeAirmax90.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductosFOrm\MostrarAdidas.resx">
       <DependentUpon>MostrarAdidas.cs</DependentUpon>
@@ -192,6 +294,39 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Adidas\Adidas Gazelle.resx">
+      <DependentUpon>Adidas Gazelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Adidas\Adidas NMD R1.resx">
+      <DependentUpon>Adidas NMD R1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Adidas\Adidas Stan Smith.resx">
+      <DependentUpon>Adidas Stan Smith.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Adidas\Adidas Superstar.resx">
+      <DependentUpon>Adidas Superstar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Adidas\Adidas Ultraboost 21.resx">
+      <DependentUpon>Adidas Ultraboost 21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Puma\Puma Cell Endura.resx">
+      <DependentUpon>Puma Cell Endura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Puma\Puma Future Rider.resx">
+      <DependentUpon>Puma Future Rider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Puma\Puma Ralph Sampso.resx">
+      <DependentUpon>Puma Ralph Sampso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Puma\Puma RS-X.resx">
+      <DependentUpon>Puma RS-X.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\Productos Puma\Puma Suede Classic.resx">
+      <DependentUpon>Puma Suede Classic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductosFOrm\ProductosUnderamour\Under Armour HOVR Phantom.resx">
+      <DependentUpon>Under Armour HOVR Phantom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -229,5 +364,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

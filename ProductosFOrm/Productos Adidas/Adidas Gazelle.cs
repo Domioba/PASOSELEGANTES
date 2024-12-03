@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp2.NikesProducts
+namespace WindowsFormsApp2.ProductosFOrm.Productos_Adidas
 {
-    public partial class Nike1 : Form
+    public partial class Adidas_Gazelle : Form
     {
-        public Nike1()
+        public Adidas_Gazelle()
         {
             InitializeComponent();
-        }
-
-        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
